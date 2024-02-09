@@ -1,13 +1,11 @@
 import { window__ctx__set } from 'ctx-core/dom'
 import { ctx__new, type ctx_T } from 'ctx-core/be'
 export function browser_ctx__ensure() {
-	return globalThis.browser_ctx ??= browser_ctx__new()
+	return globalThis.ctx ??= ctx__new()
 }
-export function browser_ctx__new() {
-	const ctx = ctx__new()
-	window__ctx__set(ctx)
-	return ctx
+export function browser_ctx__debug() {
+	window__ctx__set(browser_ctx__ensure())
 }
 declare module globalThis {
-	let browser_ctx:ctx_T<''>
+	let ctx:ctx_T<''>
 }
