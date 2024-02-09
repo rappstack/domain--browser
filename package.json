@@ -1,0 +1,45 @@
+{
+	"name": "@rappstack/domain--browser",
+	"type": "module",
+	"version": "0.0.0",
+	"types": "index.ts",
+	"description": "domain library targeting the browser",
+	"keywords": [
+		"rappstack",
+		"reactive",
+		"full-stack",
+		"domain",
+		"browser",
+		"blog"
+	],
+	"homepage": "https://github.com/rappstack/domain--browser",
+	"bugs": {
+		"url": "https://github.com/rappstack/domain--browser/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rappstack/domain--browser.git"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"exports": {
+		".": "./index.ts",
+		"./ctx": "./ctx/index.ts",
+		"./package.json": "./package.json"
+	},
+	"files": [
+		"*.d.ts",
+		"*.js",
+		"*.json",
+		"ctx"
+	],
+	"dependencies": {
+		"ctx-core": "^6.1.1"
+	},
+	"devDependencies": {
+		"bun-types": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.3.3"
+	}
+}
