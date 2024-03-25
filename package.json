@@ -34,7 +34,7 @@
 		"ctx"
 	],
 	"dependencies": {
-		"ctx-core": "^6.6.2"
+		"ctx-core": "^6.7.0"
 	},
 	"devDependencies": {
 		"bun-types": "latest"
