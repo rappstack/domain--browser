@@ -34,12 +34,12 @@
 		"ctx"
 	],
 	"dependencies": {
-		"ctx-core": "^7.1.4"
+		"ctx-core": "^7.1.5"
 	},
 	"devDependencies": {
 		"bun-types": "latest"
 	},
 	"peerDependencies": {
-		"typescript": "^5.4.4"
+		"typescript": "^5.4.5"
 	}
 }
