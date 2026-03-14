@@ -1,7 +1,7 @@
 {
 	"name": "@rappstack/domain--browser",
 	"type": "module",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"types": "index.ts",
 	"description": "domain library targeting the browser",
 	"keywords": [
